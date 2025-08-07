@@ -49,11 +49,11 @@ export interface CartStore {
     getTotalPrice: () => number;
 }
 
-// export interface TabBarIconProps {
-//     focused: boolean;
-//     icon: ImageSourcePropType;
-//     title: string;
-// }
+export interface TabBarIconProps {
+    focused: boolean;
+    icon: ImageSourcePropType;
+    title: string;
+}
 
 export interface PaymentInfoStripeProps {
     label: string;
@@ -84,11 +84,11 @@ export interface CustomInputProps {
     keyboardType?: "default" | "email-address" | "numeric" | "phone-pad";
 }
 
-// export interface ProfileFieldProps {
-//     label: string;
-//     value: string;
-//     icon: ImageSourcePropType;
-// }
+export interface ProfileFieldProps {
+    label: string;
+    value: string;
+    icon: ImageSourcePropType;
+}
 
 export interface CreateUserPrams {
     email: string;
